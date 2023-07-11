@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  
+  <style>
+
+body{
+background-color: #EBF0F5;
+font-size: 1.6em;
+}
+
+  </style>
+
+</head>
+<body>
+
+    <h1>DOM</h1>
+    <p>Resultado</p>
+    <p>Usando <strong> DOM</strong> em JS</p>
+    <div id="div">Clique</div>
+
+    <script>
+        //var p1 = window.document.getElementsByTagName('p')[0]
+       // window.document.write('Está escrito: ' + p1.innerText)
+
+        /*var p2 = window.document.getElementById('div')
+        p2.style.background = 'green' */
+
+        var p3 = window.document.querySelector('div#div')
+        //p3.style.background = 'blue'
+        window.document.write('Oi '  + p3.innerText).p3.style.background = 'blue'
+
+
+    </script>
+
+</body>
+</html>
